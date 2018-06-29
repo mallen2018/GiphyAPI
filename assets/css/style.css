@@ -1,0 +1,40 @@
+button, div, form, input {
+	margin: 5px;
+}
+
+img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+label {
+    color: #fff;
+}
+
+.btn-default {
+    color:white;
+	font-size: medium;
+	background: rgba(255,0,0,0.00);
+	border-color: white;
+}
+
+body {
+	background-image: url("../images/bg-img.jpg");
+    font-family: 'Shrikhand', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.holder {
+	float: left;
+	color: white;
+}
+
+.jumbotron {
+	background: rgba(255,0,0,0.00) ;
+	text-align: center;
+	color: white;
+}
+
+
+
