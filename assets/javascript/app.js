@@ -2,9 +2,9 @@
 $(document).ready(function(){
 //makes sure starting buttons are displayed
 
-    var displayedButtons = ["Trevor Noah", "Seth Meyers", "Sarah Silverman", "Aziz Ansari"];
+        var displayedButtons = ["Trevor Noah", "Seth Meyers", "Sarah Silverman", "Aziz Ansari"];
 // this function takes the data entered and adds it into the queryURL then starts the ajax 		call and returns the info
-    function displayImg(){
+        function displayImg(){
 
         $("#display-images").empty();
         var input = $(this).attr("data-name");
